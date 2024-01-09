@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="card temperature-card">
+      <h1>Temperature Converter</h1>
+
+      <div class="input-container">
+        <input
+          type="number"
+          id="temperatureInput"
+          placeholder="Enter temperature"
+        />
+        <select id="unitFromSelect">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <select id="unitToSelect">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <button id="convertBtn">Convert</button>
+      </div>
+
+      <div class="result" id="resultArea"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

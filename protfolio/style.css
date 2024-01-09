@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: space-between  ;
+    position:sticky;
+    top: 0%;
+  }
+  section#about {
+    margin-top: 20px;
+  }
+  .nav{
+    padding:0 10px 0 10px;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px; /* Adjust the width to your preference */
+    height: 150px; /* Adjust the height to your preference */
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-content {
+    margin-left: 20px; /* Adjust the spacing to your preference */
+  }
+  
+  .profile-content h3 {
+    font-size: 24px; /* Adjust the font size to your preference */
+    margin-bottom: 10px;
+  }
+  
+  .profile-content p {
+    font-size: 16px; /* Adjust the font size to your preference */
+    line-height: 1.4;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    background-color: #eb84f680;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
